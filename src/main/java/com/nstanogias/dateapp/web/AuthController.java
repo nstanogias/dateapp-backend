@@ -24,7 +24,6 @@ import javax.validation.Valid;
 import java.net.URI;
 import java.util.Optional;
 
-@CrossOrigin
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {

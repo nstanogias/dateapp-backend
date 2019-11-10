@@ -33,7 +33,6 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-@CrossOrigin(origins = {"*"})
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
